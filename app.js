@@ -10,8 +10,8 @@ function submit(){
    bTag.style.marginTop="20px"
 
    //button edit
-   var editButton = document.createElement("button")
-   editButton.innerText="EDIT"
+   var editbtn = document.createElement("button")
+   editbtn.innerText="EDIT"
    
    var deleteButton = document.createElement("button")
    deleteButton.innerText="DELETE"
@@ -21,7 +21,7 @@ function submit(){
    
    //    store b i li tag
    liTag.appendChild(bTag)
-   liTag.appendChild(editButton)
+   liTag.appendChild(editbtn)
    liTag.appendChild(deleteButton)
    
    //    li tag store in main todo
@@ -43,8 +43,11 @@ function deleteLi(event) {
 
   event.parentNode.remove();
 }
-   
 
+
+function editli(){
+   
+}
 // = =>assign
 // ==>equal value
 // ==equal value or data type
