@@ -45,9 +45,9 @@ function deleteLi(event) {
 }
 
 
-// function editli(){
+function editli(){
    
-// }
+}
 // = =>assign
 // ==>equal value
 // ==equal value or data type
