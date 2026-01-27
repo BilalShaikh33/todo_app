@@ -29,25 +29,25 @@ function submit(){
    input.value=""
    
 }
-// document.addEventListener("keydown",function(e){
-//    if(e.key == "Enter"){
-//       submit()
-//    }
+document.addEventListener("keydown",function(e){
+   if(e.key == "Enter"){
+      submit()
+   }
    
    
-// })
+})
 
 
-// function deleteLi(event) {
-//   console.log("test", event.parentNode.childNodes[0]);
+function deleteLi(event) {
+  console.log("test", event.parentNode.childNodes[0]);
 
-//   event.parentNode.remove();
-// }
+  event.parentNode.remove();
+}
 
 
-// function editli(){
+function editli(){
    
-// }
+}
 // = =>assign
 // ==>equal value
 // ==equal value or data type
