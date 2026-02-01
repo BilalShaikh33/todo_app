@@ -38,16 +38,16 @@ document.addEventListener("keydown",function(e){
 })
 
 
-// function deleteLi(event) {
-//   console.log("test", event.parentNode.childNodes[0]);
+function deleteLi(event) {
+  console.log("test", event.parentNode.childNodes[0]);
 
-//   event.parentNode.remove();
-// }
+  event.parentNode.remove();
+}
 
 
-// function editli(){
+function editli(){
    
-// }
+}
 // = =>assign
 // ==>equal value
 // ==equal value or data type
